@@ -1,28 +1,28 @@
 class Zsass < Formula
   desc "Sass compiler implemented in Zig"
   homepage "https://github.com/nihen/zsass"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nihen/zsass/releases/download/v0.3.2/zsass-v0.3.2-macos-aarch64.tar.gz"
-      sha256 "73269c068e99754a9a6ac4a965a9d6b8ed1cd5a7819ea05397a4ca9251988e23"
+      url "https://github.com/nihen/zsass/releases/download/v0.3.3/zsass-v0.3.3-macos-aarch64.tar.gz"
+      sha256 "9770483c675bc49075f35a2d60be6f82a6b73340fb013253acc55feb201a65c3"
     end
     on_intel do
-      url "https://github.com/nihen/zsass/releases/download/v0.3.2/zsass-v0.3.2-macos-x86_64.tar.gz"
-      sha256 "ea3aa75c1ad50926f66fc1ad04a89775296afd372dc629de6de585232a59256d"
+      url "https://github.com/nihen/zsass/releases/download/v0.3.3/zsass-v0.3.3-macos-x86_64.tar.gz"
+      sha256 "8adba8ba4d0c81c70adb521ac110955ec076c4bfe63ad3cd44254b9cdd78363a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nihen/zsass/releases/download/v0.3.2/zsass-v0.3.2-linux-aarch64.tar.gz"
-      sha256 "991004047e97219d762b146382964e79b9e9c63934f22e47a5e8812dd12f4b82"
+      url "https://github.com/nihen/zsass/releases/download/v0.3.3/zsass-v0.3.3-linux-aarch64.tar.gz"
+      sha256 "58b6f253a667d425fc8d3a0290f67365e31138fd9accd77b467340985e92d211"
     end
     on_intel do
-      url "https://github.com/nihen/zsass/releases/download/v0.3.2/zsass-v0.3.2-linux-x86_64.tar.gz"
-      sha256 "20efd4f48ec172ef245965e64ac86f079f986ff0b0d1654b51de63289ebb4736"
+      url "https://github.com/nihen/zsass/releases/download/v0.3.3/zsass-v0.3.3-linux-x86_64.tar.gz"
+      sha256 "5bc74db69ad348a1460ce0d010f89daacaed08efc59e3b9d716c3442fd254850"
     end
   end
 
