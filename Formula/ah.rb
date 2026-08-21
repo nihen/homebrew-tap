@@ -1,20 +1,20 @@
 class Ah < Formula
   desc "Agent History - cross-agent session search CLI"
   homepage "https://github.com/nihen/ah"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nihen/ah/releases/download/v0.2.1/ah-darwin-arm64"
-      sha256 "23a285d48b944e6cc816f43b1bf295d0b2d86cbd0571a50584ff810ea7b7a71c"
+      url "https://github.com/nihen/ah/releases/download/v0.3.0/ah-darwin-arm64"
+      sha256 "211686f7489e90c39f58161cc03f74f36c8d0f3512c33115acaf1ec3876a40ef"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/nihen/ah/releases/download/v0.2.1/ah-linux-x86_64"
-      sha256 "2f47712ae832542c3a33f2b7a84cfbf44728ae68f98f7f47058dd48fc6688989"
+      url "https://github.com/nihen/ah/releases/download/v0.3.0/ah-linux-x86_64"
+      sha256 "5ff9e534fde6f19a80d43ebd6cd7ebcd53776b12c08af3e9cbb010fb1d3d04ef"
     end
   end
 
